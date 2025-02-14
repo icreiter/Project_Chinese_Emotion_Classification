@@ -8,6 +8,7 @@ NLP - 中文句子情緒分類 Chinese sentence emotion classification
 - [hfl/chinese-roberta-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext)
 
 ## GPU(Local Host) 
+```
 Fri Feb 14 11:18:15 2025       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 555.97                 Driver Version: 555.97         CUDA Version: 12.5     |
@@ -28,6 +29,8 @@ Fri Feb 14 11:18:15 2025
 |=========================================================================================|
 |  No running processes found                                                             |
 +-----------------------------------------------------------------------------------------+
+
+```
 
 ## Versioning
 Python version at least 3.10
