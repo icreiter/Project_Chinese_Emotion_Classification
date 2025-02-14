@@ -7,6 +7,26 @@ NLP - 中文句子情緒分類 Chinese sentence emotion classification
 ## Base Model 基礎模型
 - [hfl/chinese-roberta-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext)
 
+## Project Structure
+```
+
+│
+├─output
+│  ├── config.json
+│  ├── model.safetensors
+│  ├── special_tokens_map.json
+│  ├── tokenizer.json
+│  ├── tokenizer_config.json
+│  ├── training_args.bin
+│  └── vocab.txt
+│
+│  Finetune_Chinese_emotion_classification.ipynb
+│  Predict_Chinese_emotion_classification.ipynb
+│  README.md
+│
+
+```
+
 ## GPU(Local Host) 
 ```
 Fri Feb 14 11:18:15 2025       
@@ -47,7 +67,7 @@ Python version at least 3.10
 
 ## Description 說明
 - 因Conda環境沒有cuda 12.5版的載點，故使用cuda 12.4版替代
-- 
+- 使用roBERTa中文模型
 
 ## Result 成果
 [![roBERTa_Chinese_Sentence_Emotion_Classification](https://img.youtube.com/vi/URBbeCM-yoY/0.jpg
