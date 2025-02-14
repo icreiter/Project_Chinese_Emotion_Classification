@@ -1,0 +1,5 @@
+#checkpoint directory
+checkpoint*/
+
+#video file
+*.mp4
