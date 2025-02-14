@@ -56,6 +56,7 @@ Fri Feb 14 11:18:15 2025
 Python version at least 3.10
 
 ## Package 安裝套件
+```
 -torch                        2.6.0+cu124
 -torchaudio                   2.6.0+cu124
 -torchvision                  0.21.0+cu124
@@ -64,6 +65,7 @@ Python version at least 3.10
 -evaluate                     0.4.3
 -accelerate                   1.3.0
 -datasets                     3.2.0
+```
 
 ## Description 說明
 - 因Conda環境沒有cuda 12.5版的載點，故使用cuda 12.4版替代
