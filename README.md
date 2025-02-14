@@ -70,6 +70,21 @@ Python version at least 3.10
 ## Description 說明
 - 因Conda環境沒有cuda 12.5版的載點，故使用cuda 12.4版替代
 - 使用roBERTa中文模型
+- 使用以下標籤:
+    ```
+    例如:
+    0: "平淡語氣",
+    1: "關切語調",
+    2: "開心語調",
+    3: "憤怒語調",
+    4: "悲傷語調",
+    5: "疑問語調",
+    6: "驚奇語調",
+    7: "厭惡語調"
+    ```
+
+
+
 
 ## Result 成果
 [![roBERTa_Chinese_Sentence_Emotion_Classification](https://img.youtube.com/vi/URBbeCM-yoY/0.jpg
